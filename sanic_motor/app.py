@@ -35,4 +35,4 @@ async def data(request):
     return text(dumps(data))
 
 
-app.run(host="0.0.0.0", port=8000, workers=3, debug=True)
+app.run(host="0.0.0.0", port=8000, workers=8, debug=False)
